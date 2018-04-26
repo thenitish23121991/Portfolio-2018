@@ -1,0 +1,58 @@
+
+@import 'style_black';
+
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+.container{
+
+}
+
+.container#case_study_container{
+	position:relative;
+	width:100%;
+	margin:0px;
+}
+
+#case_study_container .cover_container{
+width:100%;
+height:480px;	
+background-image:url('../images/goqii_background.jpg');
+background-size:cover;
+overflow:hidden;
+}
+.background_container{
+	background:#e5e5e5;
+	position:absolute;
+	top:480px;
+	left:0px;
+	width:100%;
+	min-height:420px;
+}
+#case_study_container .work_text_container{
+position:absolute;
+width:90%;
+margin:0px 5%;
+padding:24px 0px;
+top:280px; 
+background:#fff;
+min-height:320px;
+border-radius:4px;
+}
+.work_text_container .work_title{
+font-family:'TTNorms';
+font-size:58px;	
+padding-top:32px;
+text-align:center;
+}
+.work_text_container .work_subtitle{
+font-family:'TTNorms';
+font-size:28px;
+padding:18px 0px;
+color:#666;
+text-align:center;
+}
